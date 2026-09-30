@@ -75,13 +75,13 @@ export function SiteHeader({ variant = "overlay" }: SiteHeaderProps) {
           onClick={() => setMenuOpen(false)}
         >
           <Image
-            src="/images/logo.png"
+            src="/images/logo-mark-stacked.png"
             alt={site.name}
-            width={277}
-            height={109}
+            width={380}
+            height={168}
             priority
             className={cn(
-              "h-9 w-auto sm:h-10 md:h-11",
+              "h-10 w-auto sm:h-11 md:h-12",
               solid ? "" : "brightness-0 invert",
             )}
           />

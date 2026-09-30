@@ -50,11 +50,11 @@ export function SiteFooter() {
         <div className="grid gap-10 py-12 md:grid-cols-[1.2fr_1fr_1fr]">
           <div>
             <Image
-              src="/images/logo.png"
+              src="/images/logo-mark-stacked.png"
               alt={site.name}
-              width={277}
-              height={109}
-              className="h-10 w-auto brightness-0 invert"
+              width={380}
+              height={168}
+              className="h-12 w-auto brightness-0 invert"
             />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/65">
               Family and cosmetic dentistry in Mountain View - comfortable care,
